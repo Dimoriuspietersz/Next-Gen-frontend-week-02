@@ -1,8 +1,72 @@
-## Multimedia
+# TechNova — Technology Services Website
 
-- Added an image with descriptive alternative text.
-- Added an audio player to the homepage.
-- Added a video player to the homepage.
+## Project Overview
 
-Note: Audio and video require their corresponding
-media files in the assets directory.
+TechNova is a multi-page website for a fictional technology services company. It was developed as part of Week 2 of my frontend development internship to practise advanced HTML, semantic structure, forms, tables, multimedia, accessibility, and SEO fundamentals.
+
+## Website Pages
+
+- **Home (`index.html`)** — Introduces TechNova and its technology solutions. Includes multimedia content where the required files are available.
+- **About (`about.html`)** — Describes the company, its mission, values, and team.
+- **Services (`services.html`)** — Presents technology services and a service plans table.
+- **Contact (`contact.html`)** — Displays contact information and a contact form with HTML validation.
+
+## Features Implemented
+
+- Multi-page navigation between four HTML pages
+- Semantic HTML5 elements, including `header`, `nav`, `main`, `section`, `article`, `aside`, and `footer`
+- Structured headings and page metadata
+- HTML table with a caption, headings, and data rows
+- Contact form with labels, required fields, input types, and built-in validation
+- Image with alternative text
+- HTML audio and video players, provided the corresponding media files are available
+- SEO-friendly page titles and meta descriptions
+- Basic accessibility practices, including keyboard navigation checks
+
+## Technologies Used
+
+- HTML5
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+week-02-multipage-website/
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── assets/
+│   ├── images/
+│   ├── audio/
+│   └── video/
+└── README.md
+```
+
+The `assets` subfolders contain the media files used by the website. Their contents depend on the files added to the project.
+
+## How to Run the Website
+
+1. Download or clone the project repository.
+2. Open the `week-02-multipage-website` folder.
+3. Open `index.html` in a web browser.
+4. Use the navigation links to visit the About, Services, and Contact pages.
+
+No framework or package installation is required for this basic HTML project.
+
+## Multimedia Requirements
+
+The website's multimedia players require the corresponding files to exist at the paths specified in the HTML.
+
+- Images should be placed in `assets/images/`.
+- Audio files should be placed in `assets/audio/`.
+- Video files should be placed in `assets/video/`.
+
+Ensure the filenames and file extensions match the paths used in the HTML. If a media file is not included, its corresponding image or player may not work as expected.
+
+## Project Status
+
+Week 2 — Advanced HTML and Accessibility.
+
+The project is being developed incrementally as part of a frontend development internship. CSS styling and further improvements are planned for subsequent weeks.
