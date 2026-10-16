@@ -1,0 +1,8 @@
+## Multimedia
+
+- Added an image with descriptive alternative text.
+- Added an audio player to the homepage.
+- Added a video player to the homepage.
+
+Note: Audio and video require their corresponding
+media files in the assets directory.
