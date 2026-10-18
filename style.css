@@ -67,3 +67,62 @@ footer {
     text-align: center;
     padding: 16px;
 }
+
+
+/* Day 16 - CSS Selectors and Colors */
+
+/* Style all paragraphs */
+p {
+    color: #374151;
+    font-size: 16px;
+}
+
+/* Style links outside the navigation */
+main a {
+    color: #1769aa;
+    text-decoration: underline;
+}
+
+/* Style lists */
+ul,
+ol {
+    padding-left: 28px;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 8px;
+}
+
+/* Style the contact form */
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style buttons */
+button,
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1769aa;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #12345a;
+}
