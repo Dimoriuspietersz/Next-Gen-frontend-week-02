@@ -234,3 +234,75 @@ form {
     max-width: 600px;
     margin: 20px 0;
 }
+
+
+/* Day 19 - Borders, Backgrounds and Dimensions */
+
+/* Main page background */
+body {
+    background-color: #f4f7fb;
+}
+
+/* Header appearance */
+header {
+    background-color: #12345a;
+    border-bottom: 4px solid #f0b429;
+    padding: 24px 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1d4f7a;
+    border-bottom: 1px solid #d7e0ea;
+}
+
+/* Content sections */
+section {
+    background-color: #ffffff;
+    border: 1px solid #d7e0ea;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Services table header */
+th {
+    background-color: #12345a;
+    color: #ffffff;
+}
+
+/* Form controls */
+input,
+select,
+textarea {
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+/* Focus state for keyboard users */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #1769aa;
+    outline-offset: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: #12345a;
+    border-top: 4px solid #f0b429;
+}
+
+/* Consistent content width */
+main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
