@@ -176,3 +176,61 @@ label {
     display: block;
     margin-bottom: 5px;
 }
+
+
+/* Day 18 - CSS Box Model */
+
+/* Make element sizing predictable */
+* {
+    box-sizing: border-box;
+}
+
+/* Main content spacing */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Article appearance */
+article {
+    margin-bottom: 20px;
+    padding: 18px;
+    border: 1px solid #d7e0ea;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    text-align: left;
+}
+
+/* Form spacing */
+form {
+    max-width: 600px;
+    margin: 20px 0;
+}
