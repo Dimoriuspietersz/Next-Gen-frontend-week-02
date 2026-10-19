@@ -126,3 +126,53 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #12345a;
 }
+
+
+/* Day 17 - Typography and Fonts */
+
+/* Main page headings */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+/* Section headings */
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* Smaller headings */
+h3 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* Paragraph readability */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Navigation text */
+nav a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Footer text */
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Form labels */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
