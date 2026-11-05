@@ -373,3 +373,72 @@ input[type="reset"] {
     padding: 0.625rem 1.125rem;
     margin-right: 0.5rem;
 }
+
+
+/* Day 22 - Flexbox Fundamentals */
+
+/* Landing page header */
+.landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Landing page navigation */
+.landing-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.landing-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e1edf8;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+/* Hero button */
+.hero-button {
+    display: inline-block;
+    background-color: #1769aa;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Feature cards container */
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual feature cards */
+.feature-card {
+    flex: 1 1 220px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #d7e0ea;
+    border-radius: 8px;
+}
